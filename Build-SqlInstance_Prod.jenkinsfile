@@ -1,0 +1,54 @@
+pipeline{
+	options {
+		timestamps()
+		buildDiscarder( logRotator(daysToKeepStr: '60', artifactDaysToKeepStr: '30') )
+		skipStagesAfterUnstable()
+	}
+	parameters{
+        string(name: 'Server', description: 'Enter new server name.' )
+        choice(name: 'Environment', choices: ['Production','Test','Reporting'], description: 'Select server environment.')
+        string(name: 'Cluster', description: 'Provide the cluster name for the new server to be joined to.' )
+        choice(name: 'AZsuffix', choices: ['a', 'b'], description: 'Select the AZ for the new server to be created in. i.e. for us-east-1a select "a"')
+        choice(name: 'InstanceType', choices: ['r5.4xlarge','r5.8xlarge','r5.12xlarge','r5.16xlarge','r5.24xlarge'], description: 'Select server environment.')
+        string(name: 'DedicatedHostID', description: 'Enter valid AWS Dedicated host id that matches AZ and InstanceType.')
+        text(name: 'NewVolume', defaultValue: 'E,100,SQL_DATA_1,GP3,3000,125\nF,100,SQL_LOGS_1,GP3,3000,125\nV,200,SQL_BACKUPS_1,GP3,3000,125\nZ,500,TEMPDB,GP3,10000,250\n', description: 'NOTE!! Ensure TEMPDB volume (Z:) is included above.\n\nExamples:\nTo deploy IO1 drive with 2TB and 20000 IOPs.\nE,2000,SQL_DATA_1,IO1,20000\n\nTo deploy GP3 drive with 200GB, 3000 IOPs and 125MB/s throughput.\nE,200,SQL_DATA_1,GP3,3000,125\n\nSample:\nE,100,SQL_DATA_1,GP3,3000,125\nF,100,SQL_LOGS_1,GP3,3000,125\nV,200,SQL_BACKUPS_1,GP3,3000,125\nZ,500,TEMPDB,GP3,10000,250\n\nHelpful Script:\nGet-ServersNewAWSVolumeScript -Servers *servername* -InstallScriptInput') 
+		string(name: 'SourceServer', defaultValue:'', description: 'Add server name for Server Migration script to use as Source.')
+        string(name: 'BackupDrive', defaultValue:'V', description: 'Drive that the backup job will be deployed to.')
+        string(name: 'PartitionId', defaultValue:'', description: 'Required for PBMM clients.\nProvide PartitionId for the specific client. If provided the PartitionId will be used to obtain the clients CMK for EBS encryption. If left blank, the default aws/ebs encryption will be used.')
+        string(name: 's3Bucket', defaultValue:'', description: 'Required for PBMM clients.\nAdd the s3 bucket name to be used for storing client database backups.\ni.e. dba-pbmm-sqlbackups')
+        string(name: 'AMI', defaultValue:'', description: '')
+        string(name: 'SqlToolsScriptsOverride', defaultValue: '', description: 'OPTIONAL. Used for dev testing. Override s3 path to sqltools' )
+	}
+	agent{
+		label "windows2019"
+	}
+	stages{
+		stage("Setup"){
+			steps{
+				script{
+					currentBuild.description = "${env.Server}"
+					def workspaceDir = pwd();
+					def common = load "${workspaceDir}/src/common/common.gvy";
+					if ( env['SqlToolsScriptsOverride'] ) {
+						common.getAWSPackageUri( env['SqlToolsScriptsOverride']  )
+					} else {
+						common.getMostRecentAWSPackage( "${env['ARGON_TOOLS_SQLTOOLS_S3_BUCKET']}/package.zip" )
+					}
+				}
+			}
+		}
+		stage( "New-SQLBuild" ) {
+			steps{
+				powershell """
+					.\\Tools\\Server_Build_Jenkins\\SqlInstance\\SqlInstance_Control.ps1
+				"""
+			}
+		}
+		
+	}
+	post {
+		cleanup{
+			cleanWs()
+		}
+	}
+}
