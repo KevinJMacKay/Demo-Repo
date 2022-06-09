@@ -1,0 +1,33 @@
+import: "../../../indices/logs-sql_server.yaml"
+
+name: "SQL Stack Dump alert"
+description: "Alerts when SQL Servers stack dump."
+
+type: "frequency"
+num_events: 1
+use_count_query: False
+
+timeframe:
+  minutes: 5
+
+filter:
+    - bool:
+        must:
+            - term:
+                event.provider: SQLAudit
+            - match_phrase: 
+                message: "STACK DUMP" 
+
+opsgenie_key: "354be478-3c0c-450b-bfe1-56b4e4d6f541"
+
+generate_kibana_discover_url: True
+kibana_discover_columns:
+  - winlog.computer_name
+  - event.provider
+
+alert_text_args:
+  - "@timestamp"
+  - "winlog.computer_name"
+
+alert_text: The server *{1}* has detected a STACK DUMP at approx {0}.
+alert_text_type: alert_text_only
