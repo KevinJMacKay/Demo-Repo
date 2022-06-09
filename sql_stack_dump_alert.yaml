@@ -1,7 +1,7 @@
 import: "../../../indices/logs-sql_server.yaml"
 
 name: "SQL Stack Dump alert"
-description: "Alerts when SQL Servers stack dump."
+description: "Alerts when a SQL Server stack dumps."
 
 type: "frequency"
 num_events: 1
