@@ -15,8 +15,8 @@ filter:
         must:
             - term:
                 event.provider: SQLAudit
-            - match_phrase: 
-                message: "STACK DUMP" 
+            - wildcard: 
+                message: "*STACK DUMP*" 
 
 opsgenie_key: "354be478-3c0c-450b-bfe1-56b4e4d6f541"
 
