@@ -1,0 +1,51 @@
+pipeline{
+	options {
+		timestamps()
+		buildDiscarder( logRotator(daysToKeepStr: '60', artifactDaysToKeepStr: '30') )
+		skipStagesAfterUnstable()
+	}
+	parameters{
+		string(name: 'SQLServer', description: 'Enter SQL Server name or comma separarted list of names. If no SQLServer name is provided, ALL SQLServers in dbinfo will be used.' )
+		string(name: 'BackupDrive', defaultValue: 'V', description: 'Enter Backup Drive letter.' )
+		string(name: 's3Bucket', description: 'Enter s3Bucket. If blank, default s3Bucket from dbinfo will be used.' )
+		string(name: 'SqlToolsScriptsOverride', defaultValue: '', description: 'OPTIONAL. Used for dev testing. Override s3 path to sqltools' )
+	}
+	agent{
+		label "windows2019||QuickJobs"
+	}
+	stages{
+		stage("Deploy"){
+			steps{
+				script{
+					currentBuild.description = "Deploying SQL Backup Job"
+					def workspaceDir = pwd();
+					def common = load "${workspaceDir}/src/common/common.gvy";
+					if ( env['SqlToolsScriptsOverride'] ) {
+						common.getAWSPackageUri( env['SqlToolsScriptsOverride']  )
+					} else {
+						common.getMostRecentAWSPackage( "${env['ARGON_TOOLS_SQLTOOLS_S3_BUCKET']}/package.zip" )
+					}
+				}
+			}
+		}
+		stage( "Deploying SQL Backup Job" ) {
+			steps{
+				powershell """
+					\$ErrorActionPreference = 'Stop'
+					if (\$env:SQLServer) {
+						\$Servers = \$env:SQLServer.Split(',', [StringSplitOptions]::RemoveEmptyEntries )
+					} else {
+						\$Servers = \$env:SQLServer
+					}
+					.\\Tools\\Setup_Scripts\\NewBackupJob\\Deploy_SQLBackupJobs.ps1 -Server \$Servers -BackupDrive \$env:BackupDrive -s3Bucket \$env:s3Bucket
+				"""
+			}
+		}
+		
+	}
+	post {
+		cleanup{
+			cleanWs()
+		}
+	}
+}
