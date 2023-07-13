@@ -1,0 +1,1147 @@
+Hammerdb Log @ Wed Oct 12 13:14:22 -0000 2022
+servername,database,vu,nopm,tpm
+BASICLS-1,r5.4xlarge,hammerdb_25,25,56397,130357
+BASICLS-1,r5.4xlarge,hammerdb_25,50,62719,144306
+Hammerdb Log End @ Wednesday Oct 12 13:23:06 2022
+
+Hammerdb Log @ Wed Oct 12 13:25:24 -0000 2022
+servername,database,vu,nopm,tpm
+BASICLS-1,r5.4xlarge,hammerdb_25,150,62757,145271
+BASICLS-1,r5.4xlarge,hammerdb_25,300,61145,141661
+Hammerdb Log End @ Wednesday Oct 12 13:34:18 2022
+
+Hammerdb Log @ Wed Oct 12 13:45:04 -0000 2022
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.4xlarge,hammerdb_100,10,34449,79857
+LAB1APSQLR466,r5.4xlarge,hammerdb_100,20,56593,130724
+Hammerdb Log End @ Wednesday Oct 12 13:53:36 2022
+
+Hammerdb Log @ Wed Oct 12 13:55:28 -0000 2022
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.4xlarge,hammerdb_100,100,58244,134407
+LAB1APSQLR466,r5.4xlarge,hammerdb_100,200,59868,138554
+Hammerdb Log End @ Wednesday Oct 12 14:05:45 2022
+
+Hammerdb Log @ Wed Oct 12 14:19:00 -0000 2022
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.4xlarge,hammerdb_25,1,9536,22553
+Hammerdb Log End @ Wednesday Oct 12 14:24:35 2022
+
+Hammerdb Log @ Wed Oct 12 14:52:26 -0000 2022
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.4xlarge,hammerdb_25,25,52578,121887
+LAB1APSQLR466,r5.4xlarge,hammerdb_25,50,62106,143726
+LAB1APSQLR466,r5.4xlarge,hammerdb_25,75,62417,144625
+LAB1APSQLR466,r5.4xlarge,hammerdb_25,100,62466,144287
+Hammerdb Log End @ Wednesday Oct 12 15:11:08 2022
+
+Hammerdb Log @ Wed Oct 12 17:54:57 -0000 2022
+servername,database,vu,nopm,tpm
+Hammerdb Log End @ Wednesday Oct 12 17:57:36 2022
+
+Hammerdb Log @ Tue Oct 18 14:33:44 -0000 2022
+servername,database,vu,nopm,tpm
+Hammerdb Log End @ Tuesday Oct 18 14:34:06 2022
+
+Hammerdb Log @ Tue Oct 18 14:35:21 -0000 2022
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.large,hammerdb_25,25,28270,65503
+Hammerdb Log End @ Tuesday Oct 18 14:39:51 2022
+
+Hammerdb Log @ Tue Oct 18 14:40:44 -0000 2022
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.large,hammerdb_25,100,32672,75708
+LAB1APSQLR466,r5.large,hammerdb_25,200,31908,74305
+Hammerdb Log End @ Tuesday Oct 18 14:49:58 2022
+
+Hammerdb Log @ Wed Oct 19 12:03:09 -0000 2022
+servername,database,vu,nopm,tpm
+SQLFCI3,r5.large,hammerdb_25,100,46655,107115
+SQLFCI3,r5.large,hammerdb_25,200,47663,109868
+Hammerdb Log End @ Wednesday Oct 19 12:11:59 2022
+
+Hammerdb Log @ Wed Oct 19 18:42:44 -0000 2022
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.large,hammerdb_25,25,29437,68369
+LAB1APSQLR466,r5.large,hammerdb_25,25,19009,176160
+LAB1APSQLR466,r5.large,hammerdb_25,25,11966,172476
+LAB1APSQLR466,r5.large,hammerdb_25,25,11462,268989
+Hammerdb Log End @ Wednesday Oct 19 19:29:38 2022
+
+Hammerdb Log @ Fri Oct 21 17:11:40 -0000 2022
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.large,hammerdb_25,25,12572,272470
+LAB1APSQLR466,r5.large,hammerdb_25,25,13074,283007
+LAB1APSQLR466,r5.large,hammerdb_25,25,9801,242274
+LAB1APSQLR466,r5.large,hammerdb_25,25,6722,176632
+Hammerdb Log End @ Friday Oct 21 17:59:06 2022
+
+Hammerdb Log @ Fri Oct 21 18:12:11 -0000 2022
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.large,hammerdb_25,25,8926,203720
+LAB1APSQLR466,r5.large,hammerdb_25,25,18958,189356
+LAB1APSQLR466,r5.large,hammerdb_25,25,17104,39838
+LAB1APSQLR466,r5.large,hammerdb_25,25,24477,56906
+Hammerdb Log End @ Friday Oct 21 19:00:53 2022
+
+Hammerdb Log @ Thu Oct 27 13:23:43 -0000 2022
+servername,database,vu,nopm,tpm
+SQLFCI3,r5.large,hammerdb_25,10,39252,90206
+SQLFCI3,r5.large,hammerdb_25,20,39865,91666
+SQLFCI3,r5.large,hammerdb_25,30,37359,85958
+SQLFCI3,r5.large,hammerdb_25,40,38190,87802
+SQLFCI3,r5.large,hammerdb_25,50,37537,86496
+Hammerdb Log End @ Thursday Oct 27 16:04:45 2022
+
+Hammerdb Log @ Fri Oct 28 12:15:28 -0000 2022
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.large,hammerdb_25,10,23059,53676
+LAB1APSQLR466,r5.large,hammerdb_25,20,25099,58267
+LAB1APSQLR466,r5.large,hammerdb_25,30,25299,58843
+LAB1APSQLR466,r5.large,hammerdb_25,40,25370,58811
+LAB1APSQLR466,r5.large,hammerdb_25,50,24429,56752
+Hammerdb Log End @ Friday Oct 28 14:53:59 2022
+
+Hammerdb Log @ Wed Nov 02 16:42:45 -0000 2022
+servername,database,vu,nopm,tpm
+SQLFCI3,r5.large,hammerdb_25,10,1960891,4520023
+Hammerdb Log End @ Wednesday Nov 02 18:27:35 2022
+
+Hammerdb Log @ Wed Nov 09 16:59:24 -0000 2022
+servername,database,vu,nopm,tpm
+SQLFCI3,r5.large,hammerdb_25,10,38195,87941
+Hammerdb Log End @ Wednesday Nov 09 17:02:47 2022
+
+Hammerdb Log @ Wed Nov 09 17:18:05 -0000 2022
+servername,database,vu,nopm,tpm
+SQLFCI3,r5.large,hammerdb_25,10,39291,90591
+Hammerdb Log End @ Wednesday Nov 09 17:21:25 2022
+
+Hammerdb Log @ Wed Nov 09 18:21:51 -0000 2022
+servername,database,vu,nopm,tpm
+SQLFCI3,r5.large,hammerdb_25,10,34504,79266
+Hammerdb Log End @ Wednesday Nov 09 18:25:15 2022
+
+Hammerdb Log @ Fri Nov 11 16:26:33 -0000 2022
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,,hammerdb_25,10,3420,8078
+Hammerdb Log End @ Friday Nov 11 16:30:03 2022
+
+Hammerdb Log @ Fri Nov 11 16:44:29 -0000 2022
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.large,hammerdb_25,10,40396,93499
+Hammerdb Log End @ Friday Nov 11 16:47:47 2022
+
+Hammerdb Log @ Fri Nov 11 16:53:01 -0000 2022
+servername,database,vu,nopm,tpm
+,r5.large,hammerdb_25,10,33487,77407
+Hammerdb Log End @ Friday Nov 11 16:56:30 2022
+
+Hammerdb Log @ Fri Nov 11 16:58:57 -0000 2022
+servername,database,vu,nopm,tpm
+SQLFCI3,r5.large,hammerdb_25,10,35532,81975
+Hammerdb Log End @ Friday Nov 11 17:02:20 2022
+
+Hammerdb Log @ Fri Nov 11 17:02:43 -0000 2022
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.large,hammerdb_25,10,40169,92704
+Hammerdb Log End @ Friday Nov 11 17:06:01 2022
+
+Hammerdb Log @ Thu Nov 24 20:06:25 -0000 2022
+servername,database,vu,nopm,tpm
+SQLFCI3,r5.large,hammerdb_100,10,39411,91066
+Hammerdb Log End @ Thursday Nov 24 20:09:53 2022
+
+Hammerdb Log @ Tue Dec 06 15:55:54 -0000 2022
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.8xlarge,hammerdb_25,10,86914,199965
+Hammerdb Log End @ Tuesday Dec 06 15:59:22 2022
+
+Hammerdb Log @ Wed Dec 07 19:07:43 -0000 2022
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.8xlarge,hammerdb_25,10,69584,179544
+Hammerdb Log End @ Wednesday Dec 07 19:11:28 2022
+
+Hammerdb Log @ Wed Dec 07 19:07:43 -0000 2022
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.8xlarge,hammerdb_100,10,69584,179544
+WSFC2\SQLFCI4,r5.8xlarge,hammerdb_100,10,40309,117973
+Hammerdb Log End @ Wednesday Dec 07 19:13:08 2022
+
+Hammerdb Log @ Wed Dec 07 19:07:43 -0000 2022
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.8xlarge,hammerdb_25,10,69584,179544
+WSFC2\SQLFCI4,r5.8xlarge,hammerdb_25,10,40309,117973
+WSFC2\SQLFCI4,r5.8xlarge,hammerdb_25,50,63115,198061
+WSFC2\SQLFCI4,r5.8xlarge,hammerdb_25,50,37300,171433
+WSFC2\SQLFCI4,r5.8xlarge,hammerdb_25,100,44249,162008
+WSFC2\SQLFCI4,r5.8xlarge,hammerdb_25,100,40968,158287
+WSFC2\SQLFCI4,r5.8xlarge,hammerdb_25,150,43330,155864
+Hammerdb Log End @ Wednesday Dec 07 19:35:29 2022
+
+Hammerdb Log @ Wed Dec 07 19:07:43 -0000 2022
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.8xlarge,hammerdb_100,10,69584,179544
+WSFC2\SQLFCI4,r5.8xlarge,hammerdb_100,10,40309,117973
+WSFC2\SQLFCI4,r5.8xlarge,hammerdb_100,50,63115,198061
+WSFC2\SQLFCI4,r5.8xlarge,hammerdb_100,50,37300,171433
+WSFC2\SQLFCI4,r5.8xlarge,hammerdb_100,100,44249,162008
+WSFC2\SQLFCI4,r5.8xlarge,hammerdb_100,100,40968,158287
+WSFC2\SQLFCI4,r5.8xlarge,hammerdb_100,150,43330,155864
+WSFC2\SQLFCI4,r5.8xlarge,hammerdb_100,150,55790,165202
+Hammerdb Log End @ Wednesday Dec 07 19:37:45 2022
+
+Hammerdb Log @ Fri Dec 09 13:13:20 -0000 2022
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.8xlarge,hammerdb_100,50,90342,208108
+WSFC2\SQLFCI4,r5.8xlarge,hammerdb_100,100,69774,159511
+WSFC2\SQLFCI4,r5.8xlarge,hammerdb_100,150,91546,210822
+Hammerdb Log End @ Friday Dec 09 13:35:13 2022
+
+Hammerdb Log @ Fri Dec 09 13:45:28 -0000 2022
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.8xlarge,hammerdb_100,50,93333,214672
+WSFC2\SQLFCI4,r5.8xlarge,hammerdb_100,100,100040,230789
+WSFC2\SQLFCI4,r5.8xlarge,hammerdb_100,150,96642,222626
+Hammerdb Log End @ Friday Dec 09 14:07:02 2022
+
+Hammerdb Log @ Wed Jan 25 19:58:11 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.4xlarge,hammerdb_100,25,27122,63261
+LAB1APSQLR466,r5.4xlarge,hammerdb_100,50,39585,91450
+Hammerdb Log End @ Wednesday Jan 25 20:07:24 2023
+
+Hammerdb Log @ Thu Jan 26 13:12:45 -0000 2023
+servername,database,vu,nopm,tpm
+Hammerdb Log End @ Thursday Jan 26 13:15:20 2023
+
+Hammerdb Log @ Thu Jan 26 13:36:16 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.large,hammerdb_25,2,18776,43721
+WSFC2\SQLFCI4,r5.large,hammerdb_25,5,36919,85193
+Hammerdb Log End @ Thursday Jan 26 13:44:53 2023
+
+Hammerdb Log @ Thu Jan 26 13:46:02 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.large,hammerdb_25,10,43626,100513
+WSFC2\SQLFCI4,r5.large,hammerdb_25,25,44612,102627
+WSFC2\SQLFCI4,r5.large,hammerdb_25,50,45156,103954
+WSFC2\SQLFCI4,r5.large,hammerdb_25,100,46283,106556
+Hammerdb Log End @ Thursday Jan 26 14:12:14 2023
+
+Hammerdb Log @ Thu Jan 26 14:12:20 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.large,hammerdb_100,10,35226,81000
+WSFC2\SQLFCI4,r5.large,hammerdb_100,25,37962,87486
+WSFC2\SQLFCI4,r5.large,hammerdb_100,50,35779,82320
+WSFC2\SQLFCI4,r5.large,hammerdb_100,100,35175,80919
+Hammerdb Log End @ Thursday Jan 26 14:38:39 2023
+
+Hammerdb Log @ Thu Jan 26 14:38:45 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.large,hammerdb_250,10,22260,51317
+WSFC2\SQLFCI4,r5.large,hammerdb_250,25,29223,67260
+WSFC2\SQLFCI4,r5.large,hammerdb_250,50,29251,67444
+WSFC2\SQLFCI4,r5.large,hammerdb_250,100,33467,77019
+Hammerdb Log End @ Thursday Jan 26 15:05:00 2023
+
+Hammerdb Log @ Wed Feb 08 20:30:13 -0000 2023
+servername,database,vu,nopm,tpm
+Hammerdb Log End @ Wednesday Feb 08 20:32:27 2023
+
+Hammerdb Log @ Wed Feb 08 20:36:22 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.large,hammerdb_250,10,30361,69680
+Hammerdb Log End @ Wednesday Feb 08 20:39:47 2023
+
+Hammerdb Log @ Thu Feb 09 13:33:21 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.large,hammerdb_250,10,33408,76855
+WSFC2\SQLFCI4,r5.large,hammerdb_250,25,33092,76128
+WSFC2\SQLFCI4,r5.large,hammerdb_250,50,33129,76425
+Hammerdb Log End @ Thursday Feb 09 13:52:45 2023
+
+Hammerdb Log @ Thu Feb 09 18:31:15 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.large,hammerdb_250,10,30717,70786
+WSFC2\SQLFCI4,r5.large,hammerdb_250,25,32071,73698
+WSFC2\SQLFCI4,r5.large,hammerdb_250,50,33252,76520
+Hammerdb Log End @ Thursday Feb 09 18:50:49 2023
+
+Hammerdb Log @ Thu Feb 09 20:21:14 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.large,hammerdb_250,10,30050,69211
+WSFC2\SQLFCI4,r5.large,hammerdb_250,25,29985,69034
+WSFC2\SQLFCI4,r5.large,hammerdb_250,50,32020,73645
+Hammerdb Log End @ Thursday Feb 09 20:40:52 2023
+
+Hammerdb Log @ Mon Feb 13 15:54:54 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,10,37571,86490
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,25,64103,147413
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,50,69510,159550
+Hammerdb Log End @ Monday Feb 13 16:15:54 2023
+
+Hammerdb Log @ Tue Feb 14 13:55:24 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,10,55657,127925
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,25,67593,155399
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,50,68569,157513
+Hammerdb Log End @ Tuesday Feb 14 14:16:34 2023
+
+Hammerdb Log @ Tue Feb 14 14:48:59 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,10,54163,124686
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,25,65096,149613
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,50,66689,152785
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,25,10484,24840
+Hammerdb Log End @ Tuesday Feb 14 15:09:49 2023
+
+Hammerdb Log @ Tue Feb 14 14:48:59 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.xlarge,hammerdb_250,10,54163,124686
+LAB1APSQLR466,r5.xlarge,hammerdb_250,25,65096,149613
+LAB1APSQLR466,r5.xlarge,hammerdb_250,50,66689,152785
+LAB1APSQLR466,r5.xlarge,hammerdb_250,25,10484,24840
+Hammerdb Log End @ Tuesday Feb 14 15:09:55 2023
+
+Hammerdb Log @ Tue Feb 14 15:16:09 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,10,53703,123688
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,10,18770,43764
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,25,61774,142060
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,25,24352,56307
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,50,62549,144065
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,50,25638,59375
+Hammerdb Log End @ Tuesday Feb 14 15:37:06 2023
+
+Hammerdb Log @ Tue Feb 14 15:53:41 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,10,,
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,10,28269,65381
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,25,59962,137760
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,25,29347,68086
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,50,60656,139323
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,50,32387,74938
+Hammerdb Log End @ Tuesday Feb 14 16:14:26 2023
+
+Hammerdb Log @ Tue Feb 14 16:51:58 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,10,56047,129137
+Hammerdb Log End @ Tuesday Feb 14 16:54:25 2023
+
+Hammerdb Log @ Wed Feb 15 13:04:57 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,10,54697,125659
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,25,64054,147326
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,50,65511,150872
+Hammerdb Log End @ Wednesday Feb 15 13:25:25 2023
+
+Hammerdb Log @ Wed Feb 15 13:44:56 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.xlarge,hammerdb_250,10,29068,67641
+LAB1APSQLR466,r5.xlarge,hammerdb_250,25,28314,65574
+LAB1APSQLR466,r5.xlarge,hammerdb_250,50,27968,64669
+Hammerdb Log End @ Wednesday Feb 15 14:04:40 2023
+
+Hammerdb Log @ Wed Feb 15 14:37:44 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,25,33064,75758
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,50,61072,140494
+Hammerdb Log End @ Wednesday Feb 15 14:51:07 2023
+
+Hammerdb Log @ Wed Feb 15 14:53:31 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,25,62665,144553
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,50,64781,148983
+Hammerdb Log End @ Wednesday Feb 15 15:07:33 2023
+
+Hammerdb Log @ Wed Feb 15 15:16:13 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.xlarge,hammerdb_250,25,28060,64599
+LAB1APSQLR466,r5.xlarge,hammerdb_250,50,27095,62346
+Hammerdb Log End @ Wednesday Feb 15 15:29:25 2023
+
+Hammerdb Log @ Wed Feb 15 15:38:14 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.xlarge,hammerdb_250,25,26834,61673
+LAB1APSQLR466,r5.xlarge,hammerdb_250,50,25792,59362
+Hammerdb Log End @ Wednesday Feb 15 15:51:19 2023
+
+Hammerdb Log @ Wed Feb 15 18:12:00 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,25,64211,147738
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,50,68768,158055
+Hammerdb Log End @ Wednesday Feb 15 18:26:07 2023
+
+Hammerdb Log @ Wed Feb 15 20:09:07 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,25,65188,150273
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,50,67094,154130
+Hammerdb Log End @ Wednesday Feb 15 20:22:55 2023
+
+Hammerdb Log @ Thu Feb 16 14:11:07 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.xlarge,hammerdb_250,25,24715,56808
+LAB1APSQLR466,r5.xlarge,hammerdb_250,50,23879,54933
+Hammerdb Log End @ Thursday Feb 16 14:24:17 2023
+
+Hammerdb Log @ Thu Feb 16 14:38:56 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.xlarge,hammerdb_250,25,23676,54672
+LAB1APSQLR466,r5.xlarge,hammerdb_250,50,24009,55496
+Hammerdb Log End @ Thursday Feb 16 14:52:09 2023
+
+Hammerdb Log @ Thu Feb 16 14:59:55 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR467,r5.xlarge,hammerdb_25,25,60077,138477
+LAB1APSQLR467,r5.xlarge,hammerdb_25,50,61332,141633
+Hammerdb Log End @ Thursday Feb 16 15:13:31 2023
+
+Hammerdb Log @ Thu Feb 16 15:39:46 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR467,r5.xlarge,hammerdb_25,25,63626,146248
+LAB1APSQLR467,r5.xlarge,hammerdb_25,50,70841,163247
+Hammerdb Log End @ Thursday Feb 16 15:53:23 2023
+
+Hammerdb Log @ Thu Feb 16 16:26:47 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR467,r5.xlarge,hammerdb_250,25,11848,27107
+LAB1APSQLR467,r5.xlarge,hammerdb_250,50,17573,40085
+Hammerdb Log End @ Thursday Feb 16 16:40:05 2023
+
+Hammerdb Log @ Thu Feb 16 16:43:16 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR467,r5.xlarge,hammerdb_250,25,20738,47657
+LAB1APSQLR467,r5.xlarge,hammerdb_250,50,22111,50915
+Hammerdb Log End @ Thursday Feb 16 16:56:31 2023
+
+Hammerdb Log @ Thu Feb 16 19:12:42 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,25,64304,147877
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,50,65565,151024
+Hammerdb Log End @ Thursday Feb 16 19:50:48 2023
+
+Hammerdb Log @ Fri Feb 17 13:15:30 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR467,r5.xlarge,hammerdb_25,25,75730,173903
+LAB1APSQLR467,r5.xlarge,hammerdb_25,50,75128,173031
+Hammerdb Log End @ Friday Feb 17 13:29:25 2023
+
+Hammerdb Log @ Fri Feb 17 15:18:30 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_25,25,70512,162205
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_25,50,74621,171860
+Hammerdb Log End @ Friday Feb 17 15:31:42 2023
+
+Hammerdb Log @ Fri Feb 17 15:42:41 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.xlarge,hammerdb_25,25,71969,165488
+LAB1APSQLR466,r5.xlarge,hammerdb_25,50,76407,176074
+Hammerdb Log End @ Friday Feb 17 15:56:40 2023
+
+Hammerdb Log @ Fri Feb 17 16:02:00 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.xlarge,hammerdb_25,25,75918,174711
+Hammerdb Log End @ Friday Feb 17 16:09:00 2023
+
+Hammerdb Log @ Fri Feb 17 17:21:57 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_25,25,66873,153783
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_25,50,73338,168755
+Hammerdb Log End @ Friday Feb 17 17:32:57 2023
+
+Hammerdb Log @ Tue Feb 21 14:33:28 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,25,64701,148575
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,50,66660,153397
+Hammerdb Log End @ Tuesday Feb 21 14:44:32 2023
+
+Hammerdb Log @ Tue Feb 21 15:28:58 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,25,65752,151199
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,50,68199,156557
+Hammerdb Log End @ Tuesday Feb 21 15:39:51 2023
+
+Hammerdb Log @ Tue Feb 21 15:43:05 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,100,69374,159382
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,200,69130,159827
+Hammerdb Log End @ Tuesday Feb 21 15:54:23 2023
+
+Hammerdb Log @ Tue Feb 21 15:57:56 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,500,,
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,,,
+Hammerdb Log End @ Tuesday Feb 21 16:10:58 2023
+
+Hammerdb Log @ Tue Feb 21 16:16:08 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,500,,
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,500,72013,166317
+Hammerdb Log End @ Tuesday Feb 21 16:32:37 2023
+
+Hammerdb Log @ Tue Feb 21 16:34:37 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,500,76742,177073
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,500,72987,168235
+Hammerdb Log End @ Tuesday Feb 21 17:12:26 2023
+
+Hammerdb Log @ Tue Feb 21 17:21:08 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,500,78534,181330
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,500,,
+Hammerdb Log End @ Tuesday Feb 21 17:59:33 2023
+
+Hammerdb Log @ Wed Feb 22 13:14:05 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,25,67220,154239
+WSFC2\SQLFCI4,r5.xlarge,hammerdb_250,50,68888,158474
+Hammerdb Log End @ Wednesday Feb 22 13:25:07 2023
+
+Hammerdb Log @ Wed Feb 22 14:05:25 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.2xlarge,hammerdb_250,25,76513,178121
+WSFC2\SQLFCI4,r5.2xlarge,hammerdb_250,50,90619,208689
+Hammerdb Log End @ Wednesday Feb 22 14:16:49 2023
+
+Hammerdb Log @ Wed Feb 22 14:48:59 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.2xlarge,hammerdb_250,25,83650,192618
+WSFC2\SQLFCI4,r5.2xlarge,hammerdb_250,50,85438,196042
+Hammerdb Log End @ Wednesday Feb 22 15:00:32 2023
+
+Hammerdb Log @ Wed Feb 22 15:20:21 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.4xlarge,hammerdb_250,25,92372,215320
+WSFC2\SQLFCI4,r5.4xlarge,hammerdb_250,50,87405,201043
+Hammerdb Log End @ Wednesday Feb 22 15:31:39 2023
+
+Hammerdb Log @ Wed Feb 22 16:22:21 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.4xlarge,hammerdb_250,25,98985,227764
+WSFC2\SQLFCI4,r5.4xlarge,hammerdb_250,50,91241,209775
+Hammerdb Log End @ Wednesday Feb 22 16:34:10 2023
+
+Hammerdb Log @ Wed Feb 22 16:47:23 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.4xlarge,hammerdb_250,25,98896,227343
+WSFC2\SQLFCI4,r5.4xlarge,hammerdb_250,50,96225,220907
+Hammerdb Log End @ Wednesday Feb 22 16:59:04 2023
+
+Hammerdb Log @ Wed Feb 22 18:34:00 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC2\SQLFCI4,r5.4xlarge,hammerdb_250,25,97366,223418
+WSFC2\SQLFCI4,r5.4xlarge,hammerdb_250,50,86805,200053
+Hammerdb Log End @ Wednesday Feb 22 18:45:41 2023
+
+Hammerdb Log @ Wed Feb 22 18:58:47 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.xlarge,hammerdb_25,25,71856,165384
+LAB1APSQLR466,r5.xlarge,hammerdb_25,50,73824,169819
+Hammerdb Log End @ Wednesday Feb 22 19:10:25 2023
+
+Hammerdb Log @ Wed Feb 22 19:51:18 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.xlarge,hammerdb_250,25,23803,54694
+LAB1APSQLR466,r5.xlarge,hammerdb_250,50,24023,55104
+Hammerdb Log End @ Wednesday Feb 22 20:02:27 2023
+
+Hammerdb Log @ Wed Feb 22 20:06:52 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.xlarge,hammerdb_250,25,23808,54481
+LAB1APSQLR466,r5.xlarge,hammerdb_250,50,23213,53564
+Hammerdb Log End @ Wednesday Feb 22 20:17:47 2023
+
+Hammerdb Log @ Thu Feb 23 16:30:40 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR467,r5.4xlarge,hammerdb_250,25,14145,32859
+LAB1APSQLR467,r5.4xlarge,hammerdb_250,50,21367,49333
+Hammerdb Log End @ Thursday Feb 23 16:41:44 2023
+
+Hammerdb Log @ Thu Feb 23 16:50:31 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR467,r5.4xlarge,hammerdb_250,25,27449,63585
+LAB1APSQLR467,r5.4xlarge,hammerdb_250,50,28999,67199
+Hammerdb Log End @ Thursday Feb 23 17:01:47 2023
+
+Hammerdb Log @ Thu Feb 23 17:08:10 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR467,r5.4xlarge,hammerdb_250,25,30354,70409
+LAB1APSQLR467,r5.4xlarge,hammerdb_250,50,29260,67362
+Hammerdb Log End @ Thursday Feb 23 17:19:23 2023
+
+Hammerdb Log @ Thu Feb 23 18:59:12 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLV451,r5.large,hammerdb_250,25,17195,39847
+LAB1APSQLV451,r5.large,hammerdb_250,50,18421,42715
+Hammerdb Log End @ Thursday Feb 23 19:10:23 2023
+
+Hammerdb Log @ Thu Feb 23 19:28:09 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLV451,r5.4xlarge,hammerdb_250,25,28670,66643
+LAB1APSQLV451,r5.4xlarge,hammerdb_250,50,30593,70810
+Hammerdb Log End @ Thursday Feb 23 19:39:17 2023
+
+Hammerdb Log @ Tue Mar 07 18:54:38 -0000 2023
+servername,database,vu,nopm,tpm
+SIOSPOC1\INSTA,r5d.xlarge,hammerdb_25,25,62143,143349
+SIOSPOC1\INSTA,r5d.xlarge,hammerdb_25,50,64024,147626
+Hammerdb Log End @ Tuesday Mar 07 19:08:34 2023
+
+Hammerdb Log @ Tue Mar 07 20:37:13 -0000 2023
+servername,database,vu,nopm,tpm
+SIOSPOC1\INSTA,r5d.xlarge,hammerdb_250,25,12570,29027
+SIOSPOC1\INSTA,r5d.xlarge,hammerdb_250,50,17378,40149
+Hammerdb Log End @ Tuesday Mar 07 20:50:54 2023
+
+Hammerdb Log @ Tue Mar 07 21:27:44 -0000 2023
+servername,database,vu,nopm,tpm
+SIOSPOC1\INSTA,r5d.xlarge,hammerdb_250,25,15273,34932
+SIOSPOC1\INSTA,r5d.xlarge,hammerdb_250,50,23220,53073
+Hammerdb Log End @ Tuesday Mar 07 21:40:54 2023
+
+Hammerdb Log @ Wed Mar 08 13:13:54 -0000 2023
+servername,database,vu,nopm,tpm
+SIOSPOC1\INSTA,r5d.xlarge,hammerdb_250,25,28021,64606
+SIOSPOC1\INSTA,r5d.xlarge,hammerdb_250,50,28864,66844
+Hammerdb Log End @ Wednesday Mar 08 13:27:15 2023
+
+Hammerdb Log @ Wed Mar 08 15:40:00 -0000 2023
+servername,database,vu,nopm,tpm
+SIOSPOC1\INSTA,r5d.xlarge,hammerdb_250,25,29774,68649
+SIOSPOC1\INSTA,r5d.xlarge,hammerdb_250,50,29382,68037
+Hammerdb Log End @ Wednesday Mar 08 15:53:32 2023
+
+Hammerdb Log @ Wed Mar 08 19:49:21 -0000 2023
+servername,database,vu,nopm,tpm
+SIOSPOC1\INSTA,r5d.xlarge,hammerdb_250,25,28834,66429
+Hammerdb Log End @ Wednesday Mar 08 19:52:51 2023
+
+Hammerdb Log @ Wed Mar 08 20:10:19 -0000 2023
+servername,database,vu,nopm,tpm
+SIOSPOC1\INSTA,r5d.4xlarge,hammerdb_250,25,16072,37022
+SIOSPOC1\INSTA,r5d.4xlarge,hammerdb_250,50,25086,58272
+Hammerdb Log End @ Wednesday Mar 08 20:23:39 2023
+
+Hammerdb Log @ Wed Mar 08 20:25:59 -0000 2023
+servername,database,vu,nopm,tpm
+SIOSPOC1\INSTA,r5d.4xlarge,hammerdb_250,25,30865,70920
+SIOSPOC1\INSTA,r5d.4xlarge,hammerdb_250,50,31483,72289
+Hammerdb Log End @ Wednesday Mar 08 20:39:30 2023
+
+Hammerdb Log @ Fri Mar 10 18:48:31 -0000 2023
+servername,database,vu,nopm,tpm
+SIOSPOC2\INSTB,r5d.xlarge,hammerdb_250,25,13898,32096
+SIOSPOC2\INSTB,r5d.xlarge,hammerdb_250,50,21180,48826
+Hammerdb Log End @ Friday Mar 10 19:01:52 2023
+
+Hammerdb Log @ Fri Mar 10 19:07:43 -0000 2023
+servername,database,vu,nopm,tpm
+SIOSPOC2\INSTB,r5d.xlarge,hammerdb_250,25,25846,59716
+SIOSPOC2\INSTB,r5d.xlarge,hammerdb_250,50,26004,59842
+Hammerdb Log End @ Friday Mar 10 19:20:59 2023
+
+Hammerdb Log @ Thu Apr 06 17:56:57 -0000 2023
+servername,database,vu,nopm,tpm
+SIOSPOC3\INST1,r5.large,hammerdb_250,25,10324,24042
+SIOSPOC3\INST1,r5.large,hammerdb_250,50,17480,40406
+Hammerdb Log End @ Thursday Apr 06 18:10:30 2023
+
+Hammerdb Log @ Thu Apr 06 18:14:12 -0000 2023
+servername,database,vu,nopm,tpm
+SIOSPOC3\INST1,r5.large,hammerdb_250,25,18383,42587
+SIOSPOC3\INST1,r5.large,hammerdb_250,50,18783,43486
+Hammerdb Log End @ Thursday Apr 06 18:27:25 2023
+
+Hammerdb Log @ Thu Apr 06 18:32:21 -0000 2023
+servername,database,vu,nopm,tpm
+SIOSPOC3\INST1,r5.large,hammerdb_250,25,18556,42955
+SIOSPOC3\INST1,r5.large,hammerdb_250,50,19817,45732
+Hammerdb Log End @ Thursday Apr 06 18:45:34 2023
+
+Hammerdb Log @ Mon Apr 24 16:20:42 -0000 2023
+servername,database,vu,nopm,tpm
+Hammerdb Log End @ Monday Apr 24 16:21:37 2023
+
+Hammerdb Log @ Mon Apr 24 17:22:12 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC4\INSTD,r5.large,hammerdb_250,25,31719,73370
+WSFC4\INSTD,r5.large,hammerdb_250,50,37441,86453
+Hammerdb Log End @ Monday Apr 24 17:35:18 2023
+
+Hammerdb Log @ Mon Apr 24 17:36:11 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC4\INSTD,r5.large,hammerdb_250,25,38168,87710
+WSFC4\INSTD,r5.large,hammerdb_250,50,38212,88082
+Hammerdb Log End @ Monday Apr 24 17:49:18 2023
+
+Hammerdb Log @ Mon Apr 24 17:52:09 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC4\INSTD,r5.large,hammerdb_250,25,37729,87336
+WSFC4\INSTD,r5.large,hammerdb_250,50,37931,87636
+Hammerdb Log End @ Monday Apr 24 18:05:13 2023
+
+Hammerdb Log @ Mon Apr 24 18:17:25 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC4\INSTD,r5.large,hammerdb_250,25,40441,93397
+WSFC4\INSTD,r5.large,hammerdb_250,50,40520,93516
+Hammerdb Log End @ Monday Apr 24 18:30:32 2023
+
+Hammerdb Log @ Mon Apr 24 18:46:24 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC4\INSTD,r5.large,hammerdb_250,25,26786,61783
+WSFC4\INSTD,r5.large,hammerdb_250,50,39964,92338
+Hammerdb Log End @ Monday Apr 24 18:59:21 2023
+
+Hammerdb Log @ Mon Apr 24 19:40:21 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC4\INSTD,r5.large,hammerdb_250,25,38081,87284
+WSFC4\INSTD,r5.large,hammerdb_250,50,33652,77752
+Hammerdb Log End @ Monday Apr 24 19:51:26 2023
+
+Hammerdb Log @ Tue Apr 25 13:06:39 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC4\INSTD,r5.large,hammerdb_250,25,28638,65737
+WSFC4\INSTD,r5.large,hammerdb_250,50,36729,84281
+Hammerdb Log End @ Tuesday Apr 25 13:17:55 2023
+
+Hammerdb Log @ Tue Apr 25 14:38:48 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC4\INSTD,r5.large,hammerdb_250,25,39306,90245
+WSFC4\INSTD,r5.large,hammerdb_250,50,41104,94188
+Hammerdb Log End @ Tuesday Apr 25 14:49:56 2023
+
+Hammerdb Log @ Tue Apr 25 14:53:02 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC4\INSTD,r5.large,hammerdb_250,25,39558,91023
+WSFC4\INSTD,r5.large,hammerdb_250,50,33520,77084
+Hammerdb Log End @ Tuesday Apr 25 15:04:04 2023
+
+Hammerdb Log @ Tue Apr 25 15:04:35 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC4\INSTD,r5.large,hammerdb_250,25,38038,87590
+WSFC4\INSTD,r5.large,hammerdb_250,50,38172,87754
+Hammerdb Log End @ Tuesday Apr 25 15:15:36 2023
+
+Hammerdb Log @ Wed Apr 26 12:39:50 -0000 2023
+servername,database,vu,nopm,tpm
+Hammerdb Log End @ Wednesday Apr 26 12:40:44 2023
+
+Hammerdb Log @ Wed Apr 26 17:47:03 -0000 2023
+servername,database,vu,nopm,tpm
+Hammerdb Log End @ Wednesday Apr 26 17:47:57 2023
+
+Hammerdb Log @ Wed Apr 26 18:10:23 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.large,hammerdb_250,25,21947,50170
+WSFC5\INSTE,r5.large,hammerdb_250,50,39972,92089
+Hammerdb Log End @ Wednesday Apr 26 18:21:24 2023
+
+Hammerdb Log @ Thu Apr 27 15:33:13 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.large,hammerdb_250,25,34220,78645
+WSFC5\INSTE,r5.large,hammerdb_250,50,40691,93657
+Hammerdb Log End @ Thursday Apr 27 15:44:13 2023
+
+Hammerdb Log @ Thu Apr 27 15:53:35 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.xlarge,hammerdb_250,25,13456,31399
+LAB1APSQLR466,r5.xlarge,hammerdb_250,50,20290,46965
+Hammerdb Log End @ Thursday Apr 27 16:06:40 2023
+
+Hammerdb Log @ Thu Apr 27 17:10:56 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.xlarge,hammerdb_250,25,25599,59177
+LAB1APSQLR466,r5.xlarge,hammerdb_250,50,26202,60755
+Hammerdb Log End @ Thursday Apr 27 17:24:18 2023
+
+Hammerdb Log @ Thu Apr 27 17:49:13 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.xlarge,hammerdb_250,25,27095,62668
+LAB1APSQLR466,r5.xlarge,hammerdb_250,50,26834,62171
+Hammerdb Log End @ Thursday Apr 27 18:02:28 2023
+
+Hammerdb Log @ Thu Apr 27 18:51:58 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.xlarge,hammerdb_250,25,60825,139832
+WSFC5\INSTE,r5.xlarge,hammerdb_250,50,66587,153085
+Hammerdb Log End @ Thursday Apr 27 19:03:07 2023
+
+Hammerdb Log @ Fri Apr 28 11:57:35 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.xlarge,hammerdb_250,25,69205,158661
+WSFC5\INSTE,r5.xlarge,hammerdb_250,50,72074,166057
+Hammerdb Log End @ Friday Apr 28 12:08:54 2023
+
+Hammerdb Log @ Fri Apr 28 12:30:42 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.xlarge,hammerdb_250,25,67669,155282
+WSFC5\INSTE,r5.xlarge,hammerdb_250,50,69438,159456
+Hammerdb Log End @ Friday Apr 28 12:42:00 2023
+
+Hammerdb Log @ Fri Apr 28 13:26:54 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.xlarge,hammerdb_250,25,27323,63347
+LAB1APSQLR466,r5.xlarge,hammerdb_250,50,27146,62325
+Hammerdb Log End @ Friday Apr 28 13:38:02 2023
+
+Hammerdb Log @ Fri Apr 28 13:44:23 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.xlarge,hammerdb_250,25,27831,64119
+LAB1APSQLR466,r5.xlarge,hammerdb_250,50,27274,62934
+Hammerdb Log End @ Friday Apr 28 13:55:37 2023
+
+Hammerdb Log @ Fri Apr 28 14:19:08 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.xlarge,hammerdb_250,25,28535,65721
+LAB1APSQLR466,r5.xlarge,hammerdb_250,50,27996,64647
+Hammerdb Log End @ Friday Apr 28 14:30:22 2023
+
+Hammerdb Log @ Fri Apr 28 14:41:37 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.xlarge,hammerdb_250,25,12856,30075
+LAB1APSQLR466,r5.xlarge,hammerdb_250,50,20088,46443
+Hammerdb Log End @ Friday Apr 28 14:52:43 2023
+
+Hammerdb Log @ Fri Apr 28 14:55:47 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.xlarge,hammerdb_250,25,26153,60576
+LAB1APSQLR466,r5.xlarge,hammerdb_250,50,27266,63260
+Hammerdb Log End @ Friday Apr 28 15:06:59 2023
+
+Hammerdb Log @ Fri Apr 28 15:08:58 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.xlarge,hammerdb_250,25,27459,63589
+LAB1APSQLR466,r5.xlarge,hammerdb_250,50,28279,65318
+Hammerdb Log End @ Friday Apr 28 15:20:06 2023
+
+Hammerdb Log @ Fri Apr 28 16:43:22 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.xlarge,hammerdb_250,25,29245,67687
+LAB1APSQLR466,r5.xlarge,hammerdb_250,50,28412,65840
+Hammerdb Log End @ Friday Apr 28 16:54:34 2023
+
+Hammerdb Log @ Fri Apr 28 18:46:04 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR467,r5.4xlarge,hammerdb_1000,25,12050,27674
+LAB1APSQLR467,r5.4xlarge,hammerdb_1000,50,14783,33045
+Hammerdb Log End @ Friday Apr 28 18:57:29 2023
+
+Hammerdb Log @ Fri Apr 28 19:04:04 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR467,r5.4xlarge,hammerdb_1000,25,15227,35183
+LAB1APSQLR467,r5.4xlarge,hammerdb_1000,50,15530,35708
+Hammerdb Log End @ Friday Apr 28 19:15:14 2023
+
+Hammerdb Log @ Fri Apr 28 20:32:04 -0000 2023
+servername,database,vu,nopm,tpm
+Hammerdb Log End @ Friday Apr 28 20:32:59 2023
+
+Hammerdb Log @ Mon May 01 13:01:00 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.xlarge,hammerdb_1000,25,6460,14662
+WSFC5\INSTE,r5.xlarge,hammerdb_1000,50,10675,24549
+Hammerdb Log End @ Monday May 01 13:12:46 2023
+
+Hammerdb Log @ Mon May 01 13:24:56 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.xlarge,hammerdb_1000,25,15570,35650
+WSFC5\INSTE,r5.xlarge,hammerdb_1000,50,21647,49847
+Hammerdb Log End @ Monday May 01 13:36:09 2023
+
+Hammerdb Log @ Mon May 01 13:37:11 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.xlarge,hammerdb_1000,25,28327,65271
+WSFC5\INSTE,r5.xlarge,hammerdb_1000,50,37586,86322
+Hammerdb Log End @ Monday May 01 13:48:13 2023
+
+Hammerdb Log @ Mon May 01 13:51:14 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.xlarge,hammerdb_1000,25,42991,99121
+WSFC5\INSTE,r5.xlarge,hammerdb_1000,50,47539,109300
+Hammerdb Log End @ Monday May 01 14:02:21 2023
+
+Hammerdb Log @ Mon May 01 14:45:42 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.xlarge,hammerdb_1000,25,46382,106416
+WSFC5\INSTE,r5.xlarge,hammerdb_1000,50,47528,109372
+Hammerdb Log End @ Monday May 01 14:56:57 2023
+
+Hammerdb Log @ Mon May 01 18:04:40 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.4xlarge,hammerdb_1000,25,35586,81741
+WSFC5\INSTE,r5.4xlarge,hammerdb_1000,50,54333,124822
+Hammerdb Log End @ Monday May 01 18:15:47 2023
+
+Hammerdb Log @ Mon May 01 18:16:58 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.4xlarge,hammerdb_1000,25,55907,128912
+WSFC5\INSTE,r5.4xlarge,hammerdb_1000,50,58527,134271
+Hammerdb Log End @ Monday May 01 18:28:16 2023
+
+Hammerdb Log @ Tue May 02 12:11:17 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.4xlarge,hammerdb_1000,25,61766,141707
+WSFC5\INSTE,r5.4xlarge,hammerdb_1000,50,60875,139534
+Hammerdb Log End @ Tuesday May 02 12:22:36 2023
+
+Hammerdb Log @ Tue May 02 12:23:07 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.4xlarge,hammerdb_1000,25,54824,125755
+WSFC5\INSTE,r5.4xlarge,hammerdb_1000,50,56133,129413
+Hammerdb Log End @ Tuesday May 02 12:34:26 2023
+
+Hammerdb Log @ Tue May 02 13:02:26 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.4xlarge,hammerdb_1000,25,60706,139848
+WSFC5\INSTE,r5.4xlarge,hammerdb_1000,50,62681,144481
+Hammerdb Log End @ Tuesday May 02 13:13:40 2023
+
+Hammerdb Log @ Tue May 02 16:26:50 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.4xlarge,hammerdb_1000,25,5226,12528
+LAB1APSQLR466,r5.4xlarge,hammerdb_1000,50,7162,16833
+Hammerdb Log End @ Tuesday May 02 16:38:16 2023
+
+Hammerdb Log @ Tue May 02 17:19:54 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.4xlarge,hammerdb_1000,25,8647,20153
+LAB1APSQLR466,r5.4xlarge,hammerdb_1000,50,9787,22813
+Hammerdb Log End @ Tuesday May 02 17:31:25 2023
+
+Hammerdb Log @ Tue May 02 18:26:59 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.4xlarge,hammerdb_1000,25,10637,24933
+LAB1APSQLR466,r5.4xlarge,hammerdb_1000,50,11342,26642
+Hammerdb Log End @ Tuesday May 02 18:38:29 2023
+
+Hammerdb Log @ Tue May 02 18:42:16 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.4xlarge,hammerdb_1000,25,11653,27234
+LAB1APSQLR466,r5.4xlarge,hammerdb_1000,50,12285,28844
+Hammerdb Log End @ Tuesday May 02 18:53:32 2023
+
+Hammerdb Log @ Wed May 03 17:41:00 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.4xlarge,hammerdb_250,25,13949,32444
+LAB1APSQLR466,r5.4xlarge,hammerdb_250,50,22190,51549
+Hammerdb Log End @ Wednesday May 03 17:51:58 2023
+
+Hammerdb Log @ Wed May 03 18:03:35 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.4xlarge,hammerdb_250,25,27906,64482
+LAB1APSQLR466,r5.4xlarge,hammerdb_250,50,27966,64421
+Hammerdb Log End @ Wednesday May 03 18:15:01 2023
+
+Hammerdb Log @ Wed May 03 18:28:42 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.4xlarge,hammerdb_250,25,28520,66115
+LAB1APSQLR466,r5.4xlarge,hammerdb_250,50,29235,67755
+Hammerdb Log End @ Wednesday May 03 18:40:17 2023
+
+Hammerdb Log @ Wed May 03 18:41:43 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.4xlarge,hammerdb_250,50,28731,66181
+Hammerdb Log End @ Wednesday May 03 18:45:26 2023
+
+Hammerdb Log @ Wed May 03 18:48:05 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.4xlarge,hammerdb_250,25,25263,57728
+WSFC5\INSTE,r5.4xlarge,hammerdb_250,50,41072,94240
+WSFC5\INSTE,r5.4xlarge,hammerdb_250,25,30408,70047
+WSFC5\INSTE,r5.4xlarge,hammerdb_250,50,51363,118445
+WSFC5\INSTE,r5.4xlarge,hammerdb_250,50,56301,129352
+Hammerdb Log End @ Wednesday May 03 19:06:10 2023
+
+Hammerdb Log @ Wed May 03 19:08:15 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.4xlarge,hammerdb_250,25,64139,147245
+WSFC5\INSTE,r5.4xlarge,hammerdb_250,50,49500,113691
+WSFC5\INSTE,r5.4xlarge,hammerdb_250,25,41889,96426
+WSFC5\INSTE,r5.4xlarge,hammerdb_250,50,58321,134269
+WSFC5\INSTE,r5.4xlarge,hammerdb_250,25,52504,120661
+Hammerdb Log End @ Wednesday May 03 19:20:14 2023
+
+Hammerdb Log @ Wed May 03 19:21:27 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.4xlarge,hammerdb_250,25,54148,125635
+WSFC5\INSTE,r5.4xlarge,hammerdb_250,50,56384,129798
+Hammerdb Log End @ Wednesday May 03 19:28:17 2023
+
+Hammerdb Log @ Wed May 03 19:28:39 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.4xlarge,hammerdb_250,25,55052,126820
+WSFC5\INSTE,r5.4xlarge,hammerdb_250,50,46081,106041
+Hammerdb Log End @ Wednesday May 03 19:35:32 2023
+
+Hammerdb Log @ Wed May 03 19:38:54 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.4xlarge,hammerdb_250,25,59372,136760
+WSFC5\INSTE,r5.4xlarge,hammerdb_250,50,63738,146765
+Hammerdb Log End @ Wednesday May 03 19:50:10 2023
+
+Hammerdb Log @ Wed May 03 19:50:36 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.4xlarge,hammerdb_250,25,59535,137038
+WSFC5\INSTE,r5.4xlarge,hammerdb_250,50,63572,146246
+Hammerdb Log End @ Wednesday May 03 20:02:02 2023
+
+Hammerdb Log @ Wed May 03 20:06:49 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.4xlarge,hammerdb_250,25,64583,148625
+WSFC5\INSTE,r5.4xlarge,hammerdb_250,50,64616,149043
+Hammerdb Log End @ Wednesday May 03 20:18:05 2023
+
+Hammerdb Log @ Fri May 05 13:20:18 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.4xlarge,hammerdb_25,50,79646,183659
+Hammerdb Log End @ Friday May 05 13:24:08 2023
+
+Hammerdb Log @ Fri May 05 13:30:57 -0000 2023
+servername,database,vu,nopm,tpm
+Hammerdb Log End @ Friday May 05 13:31:18 2023
+
+Hammerdb Log @ Fri May 05 13:35:06 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLR466,r5.4xlarge,hammerdb_25,50,69871,161161
+Hammerdb Log End @ Friday May 05 13:38:50 2023
+
+Hammerdb Log @ Fri May 05 14:00:19 -0000 2023
+servername,database,vu,nopm,tpm
+Hammerdb Log End @ Friday May 05 14:00:40 2023
+
+Hammerdb Log @ Fri May 05 14:33:19 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.xlarge,hammerdb_25,25,42553,98256
+Hammerdb Log End @ Friday May 05 14:35:44 2023
+
+Hammerdb Log @ Fri May 05 14:37:41 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.xlarge,hammerdb_25,25,46121,105852
+Hammerdb Log End @ Friday May 05 14:40:04 2023
+
+Hammerdb Log @ Thu Jun 08 16:31:30 -0000 2023
+servername,database,vu,nopm,tpm
+Hammerdb Log End @ Thursday Jun 08 16:32:24 2023
+
+Hammerdb Log @ Thu Jun 08 17:01:03 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLY510,r5.4xlarge,hammerdb_250,25,35634,103110
+LAB1APSQLY510,r5.4xlarge,hammerdb_250,50,36766,106227
+Hammerdb Log End @ Thursday Jun 08 17:13:51 2023
+
+Hammerdb Log @ Thu Jun 08 18:01:57 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLY510,r5.4xlarge,hammerdb_250,25,36795,106192
+LAB1APSQLY510,r5.4xlarge,hammerdb_250,50,37477,107719
+Hammerdb Log End @ Thursday Jun 08 18:14:57 2023
+
+Hammerdb Log @ Thu Jun 08 19:44:06 -0000 2023
+servername,database,vu,nopm,tpm
+LAB1APSQLY510,r5.4xlarge,hammerdb_250,25,35784,103998
+LAB1APSQLY510,r5.4xlarge,hammerdb_250,50,36226,105682
+Hammerdb Log End @ Thursday Jun 08 19:57:14 2023
+
+Hammerdb Log @ Fri Jun 09 12:55:10 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.4xlarge,hammerdb_250,25,73977,190246
+WSFC5\INSTE,r5.4xlarge,hammerdb_250,50,80267,204886
+Hammerdb Log End @ Friday Jun 09 13:08:37 2023
+
+Hammerdb Log @ Fri Jun 09 13:15:12 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.4xlarge,hammerdb_250,25,78248,201251
+WSFC5\INSTE,r5.4xlarge,hammerdb_250,50,80656,205786
+Hammerdb Log End @ Friday Jun 09 13:29:02 2023
+
+Hammerdb Log @ Fri Jun 09 13:32:19 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.4xlarge,hammerdb_250,25,79787,201989
+WSFC5\INSTE,r5.4xlarge,hammerdb_250,50,76743,196924
+Hammerdb Log End @ Friday Jun 09 13:45:28 2023
+
+Hammerdb Log @ Mon Jun 19 14:47:35 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.8xlarge,hammerdb_250,25,59600,203861
+WSFC5\INSTE,r5.8xlarge,hammerdb_250,50,54561,172883
+Hammerdb Log End @ Monday Jun 19 14:59:04 2023
+
+Hammerdb Log @ Mon Jun 19 15:30:04 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.8xlarge,hammerdb_250,25,62167,165803
+WSFC5\INSTE,r5.8xlarge,hammerdb_250,50,62492,167159
+Hammerdb Log End @ Monday Jun 19 15:41:35 2023
+
+Hammerdb Log @ Mon Jun 19 15:54:58 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.8xlarge,hammerdb_250,25,59717,160540
+WSFC5\INSTE,r5.8xlarge,hammerdb_250,50,64379,171260
+Hammerdb Log End @ Monday Jun 19 16:06:25 2023
+
+Hammerdb Log @ Thu Jun 22 17:50:35 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.8xlarge,hammerdb_250,25,34473,1062420
+WSFC5\INSTE,r5.8xlarge,hammerdb_250,50,52522,1200935
+Hammerdb Log End @ Thursday Jun 22 18:01:56 2023
+
+Hammerdb Log @ Thu Jun 22 18:04:42 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.8xlarge,hammerdb_250,25,49058,1190597
+WSFC5\INSTE,r5.8xlarge,hammerdb_250,50,53223,149994
+Hammerdb Log End @ Thursday Jun 22 18:15:57 2023
+
+Hammerdb Log @ Thu Jun 22 18:25:25 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.8xlarge,hammerdb_250,25,49372,1777448
+WSFC5\INSTE,r5.8xlarge,hammerdb_250,50,48913,1854536
+Hammerdb Log End @ Thursday Jun 22 18:36:59 2023
+
+Hammerdb Log @ Thu Jun 22 18:50:54 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.8xlarge,hammerdb_250,25,61864,169906
+WSFC5\INSTE,r5.8xlarge,hammerdb_250,50,58231,157582
+Hammerdb Log End @ Thursday Jun 22 19:02:23 2023
+
+Hammerdb Log @ Thu Jun 22 19:08:15 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.8xlarge,hammerdb_250,25,62113,162945
+WSFC5\INSTE,r5.8xlarge,hammerdb_250,50,59114,157956
+Hammerdb Log End @ Thursday Jun 22 19:19:40 2023
+
+Hammerdb Log @ Thu Jun 22 19:30:47 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.8xlarge,hammerdb_250,25,59603,161025
+WSFC5\INSTE,r5.8xlarge,hammerdb_250,50,61480,164699
+Hammerdb Log End @ Thursday Jun 22 19:42:19 2023
+
+Hammerdb Log @ Thu Jun 22 19:47:36 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC5\INSTE,r5.8xlarge,hammerdb_250,25,10874,44096
+WSFC5\INSTE,r5.8xlarge,hammerdb_250,50,16411,50826
+Hammerdb Log End @ Thursday Jun 22 20:01:12 2023
+
+Hammerdb Log @ Thu Jul 13 12:10:15 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC8\INSTA,r5.large,hammerdb_250,25,8700,20199
+WSFC8\INSTA,r5.large,hammerdb_250,50,14481,33672
+Hammerdb Log End @ Thursday Jul 13 12:21:51 2023
+
+Hammerdb Log @ Thu Jul 13 12:32:48 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC8\INSTA,r5.large,hammerdb_250,25,14076,32560
+WSFC8\INSTA,r5.large,hammerdb_250,50,9903,23006
+Hammerdb Log End @ Thursday Jul 13 12:44:01 2023
+
+Hammerdb Log @ Thu Jul 13 13:20:50 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC8\INSTA,r5.2xlarge,hammerdb_250,25,0,16
+WSFC8\INSTA,r5.2xlarge,hammerdb_250,50,12228,28272
+Hammerdb Log End @ Thursday Jul 13 13:31:55 2023
+
+Hammerdb Log @ Thu Jul 13 13:56:15 -0000 2023
+servername,database,vu,nopm,tpm
+WSFC8\INSTA,r5.2xlarge,hammerdb_250,25,19328,44989
+WSFC8\INSTA,r5.2xlarge,hammerdb_250,50,20736,47629
+Hammerdb Log End @ Thursday Jul 13 14:07:29 2023
+
