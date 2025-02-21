@@ -1,0 +1,109 @@
+PS C:\DBA_Scripts> .\Server_Database_Count_CA06_all_test.ps1
+
+Run Date: 01/11/2024 20:22:28
+
+US04 Server count:  88
+US04 Database Count: 8581
+
+CA05 Server count:  44
+CA05 Database Count: 3152
+
+EU01 Server count:  13
+EU01 Database Count: 1295
+
+AP02 Server count:  6
+AP02 Database Count: 517
+
+AP01 Server count:  4
+AP01 Database Count: 474
+
+Total Server count:  155
+Total Database Count: 14019
+
+PS C:\DBA_Scripts\Archive> .\Server_Database_Count_CA06_all.ps1
+
+Run Date: 01/26/2023 16:35:01
+
+US04 Server count:  99
+US04 Database Count: 8450
+
+CA05 Server count:  52
+CA05 Database Count: 3073
+
+EU01 Server count:  19
+EU01 Database Count: 1626
+
+AP02 Server count:  7
+AP02 Database Count: 639
+
+AP01 Server count:  5
+AP01 Database Count: 636
+
+Total Server count:  182
+Total Database Count: 14424
+PS C:\DBA_Scripts\Archive> .\Server_Database_Count_CA06_all.ps1
+
+Run Date: 08/26/2022 11:47:20
+
+US04 Server count:  99
+US04 Database Count: 8441
+
+CA05 Server count:  52
+CA05 Database Count: 2972
+
+EU01 Server count:  17
+EU01 Database Count: 1697
+
+AP02 Server count:  7
+AP02 Database Count: 614
+
+AP01 Server count:  5
+AP01 Database Count: 585
+
+Total Server count:  180
+Total Database Count: 14309
+
+PS C:\DBA_Scripts\Archive> date
+
+Monday, November 22, 2021 8:51:41 PM
+
+US04 Server count:  97
+US04 Database Count: 12048
+
+CA05 Server count:  52
+CA05 Database Count: 4282
+
+EU01 Server count:  17
+EU01 Database Count: 2243
+
+AP02 Server count:  12
+AP02 Database Count: 864
+
+AP01 Server count:  8
+AP01 Database Count: 850
+
+Total Server count:  186
+Total Database Count: 20287
+---------------------------------------------
+PS C:\DBA_Scripts> date
+Wednesday, September 16, 2020 12:17:24 PM
+
+PS C:\DBA_Scripts> .\Server_Database_Count_CA06_all.ps1
+US04 Server count:  100
+US04 Database Count: 11791
+
+CA05 Server count:  44
+CA05 Database Count: 3963
+
+EU01 Server count:  12
+EU01 Database Count: 2098
+
+AP02 Server count:  11
+AP02 Database Count: 791
+
+AP01 Server count:  4
+AP01 Database Count: 607
+
+Total Server count:  171
+Total Database Count: 19250
+

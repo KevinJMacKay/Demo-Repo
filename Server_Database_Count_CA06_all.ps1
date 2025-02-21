@@ -14,11 +14,11 @@ if (!$environments -AND !$SQLServers) {
 $awsenvironments = @("US04", "EU01", "CA05", "AP01", "AP02")
 	
 if (!$SQLServers) {
-    if ((Test-Path C:\Modules\SQL_Admin_Universal_1.psm1) -eq $FALSE) {
+    if ((Test-Path C:\Modules\SQL_Admin_Universal.psm1) -eq $FALSE) {
         Write-Host "SQL_Admin_Universal.psm1 not found."
         Exit
     }
-    Import-Module C:\Modules\SQL_Admin_Universal_1.psm1 -Force
+    Import-Module C:\Modules\SQL_Admin_Universal.psm1 -Force
     Import-Module sqlps -Force
     Set-Location c:
 	

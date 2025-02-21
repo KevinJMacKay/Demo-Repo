@@ -1,0 +1,53 @@
+{
+    "rules": [
+        {
+            "rule-type": "selection",
+            "rule-id": "496578313",
+            "rule-name": "496578313",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "user_types"
+            },
+            "rule-action": "include",
+            "filters": []
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "428610383",
+            "rule-name": "428610383",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "users",
+                "column-name": "%"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "290696608",
+            "rule-name": "290696608",
+            "rule-target": "table",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "%"
+            },
+            "rule-action": "convert-lowercase",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "selection",
+            "rule-id": 3,
+            "rule-name": 3,
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "users"
+            },
+            "rule-action": "include",
+            "filters": []
+        }
+    ]
+}

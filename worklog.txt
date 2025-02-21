@@ -1,0 +1,213 @@
+2024-12-10 13:23:35 UTC:172.19.20.85(49428):lms__dmstesting_admin@lms__dmstest:[50086]:ERROR: invalid input syntax for type bigint: "\000\000\000\000\000\000\125\321"
+2024-12-10 13:23:35 UTC:172.19.20.85(49428):lms__dmstesting_admin@lms__dmstest:[50086]:CONTEXT: COPY news, line 1, column rowversion: "\000\000\000\000\000\000\125\321"
+2024-12-10 13:23:35 UTC:172.19.20.85(49428):lms__dmstesting_admin@lms__dmstest:[50086]:STATEMENT: COPY "dbo"."news" FROM STDIN WITH DELIMITER ',' CSV NULL 'attNULL' ESCAPE '\'
+2024-12-10 13:23:35 UTC:172.19.20.85(49432):lms__dmstesting_admin@lms__dmstest:[50088]:ERROR: extra data after last expected column
+2024-12-10 13:23:35 UTC:172.19.20.85(49432):lms__dmstesting_admin@lms__dmstest:[50088]:CONTEXT: COPY users, line 1: "12,1,"Momma",attNULL,"Cass",attNULL,attNULL,attNULL,"Momma","Cass","LomBkRGpD0eKVdp+NtitkA==","Momma..."
+2024-12-10 13:23:35 UTC:172.19.20.85(49432):lms__dmstesting_admin@lms__dmstest:[50088]:STATEMENT: COPY "dbo"."users" FROM STDIN WITH DELIMITER ',' CSV NULL 'attNULL' ESCAPE '\'
+
+
+2024-12-10 13:37:58 UTC:172.19.20.85(41106):lms__dmstesting_admin@lms__dmstest:[51082]:ERROR: invalid input syntax for type bigint: "\000\000\000\000\000\000\125\321"
+2024-12-10 13:37:58 UTC:172.19.20.85(41106):lms__dmstesting_admin@lms__dmstest:[51082]:CONTEXT: COPY news, line 1, column rowversion: "\000\000\000\000\000\000\125\321"
+2024-12-10 13:37:58 UTC:172.19.20.85(41106):lms__dmstesting_admin@lms__dmstest:[51082]:STATEMENT: COPY "dbo"."news" FROM STDIN WITH DELIMITER ',' CSV NULL 'attNULL' ESCAPE '\'
+2024-12-10 13:37:58 UTC:172.19.20.85(41124):lms__dmstesting_admin@lms__dmstest:[51086]:ERROR: extra data after last expected column
+2024-12-10 13:37:58 UTC:172.19.20.85(41124):lms__dmstesting_admin@lms__dmstest:[51086]:CONTEXT: COPY users, line 1: "12,1,"Momma",attNULL,"Cass",attNULL,attNULL,attNULL,"Momma","Cass","LomBkRGpD0eKVdp+NtitkA==","Momma..."
+2024-12-10 13:37:58 UTC:172.19.20.85(41124):lms__dmstesting_admin@lms__dmstest:[51086]:STATEMENT: COPY "dbo"."users" FROM STDIN WITH DELIMITER ',' CSV NULL 'attNULL' ESCAPE '\'
+
+
+SetUpMsCdcForTables=true;loadUsingCSV=false
+
+SYSTEM ERROR MESSAGE:Unsupported value 'loadUsingCSV' for extra connection attributes
+
+
+2024-12-11 13:50:23 UTC:172.19.20.85(56044):lms__dmstesting_admin@lms__dmstest:[18480]:ERROR: cannot insert a non-DEFAULT value into column "newsid"
+2024-12-11 13:50:23 UTC:172.19.20.85(56044):lms__dmstesting_admin@lms__dmstest:[18480]:DETAIL: Column "newsid" is an identity column defined as GENERATED ALWAYS.
+2024-12-11 13:50:23 UTC:172.19.20.85(56044):lms__dmstesting_admin@lms__dmstest:[18480]:HINT: Use OVERRIDING SYSTEM VALUE to override.
+2024-12-11 13:50:23 UTC:172.19.20.85(56044):lms__dmstesting_admin@lms__dmstest:[18480]:STATEMENT: INSERT INTO "dbo"."news"("newsid","entityid","entitytypeid",...
+2024-12-11 13:50:23 UTC:172.19.20.85(56044):lms__dmstesting_admin@lms__dmstest:[18480]:ERROR: cannot insert a non-DEFAULT value into column "firstname"
+2024-12-11 13:50:23 UTC:172.19.20.85(56044):lms__dmstesting_admin@lms__dmstest:[18480]:DETAIL: Column "firstname" is a generated column.
+2024-12-11 13:50:23 UTC:172.19.20.85(56044):lms__dmstesting_admin@lms__dmstest:[18480]:STATEMENT: INSERT INTO "dbo"."users"("userid","usertypeid","firstname",...
+
+2024-12-11 14:52:57 UTC:172.19.20.85(55884):lms__dmstesting_admin@lms__dmstest:[22718]:ERROR: cannot insert a non-DEFAULT value into column "firstname"
+2024-12-11 14:52:57 UTC:172.19.20.85(55884):lms__dmstesting_admin@lms__dmstest:[22718]:DETAIL: Column "firstname" is a generated column.
+2024-12-11 14:52:57 UTC:172.19.20.85(55884):lms__dmstesting_admin@lms__dmstest:[22718]:STATEMENT: INSERT INTO "dbo"."users"("userid","usertypeid","firstname",...
+
+2024-12-11 18:58:11 UTC:172.19.20.85(39108):lms__dmstesting_admin@lms__dmstest:[39281]:ERROR: cannot insert a non-DEFAULT value into column "firstname"
+2024-12-11 18:58:11 UTC:172.19.20.85(39108):lms__dmstesting_admin@lms__dmstest:[39281]:DETAIL: Column "firstname" is a generated column.
+2024-12-11 18:58:11 UTC:172.19.20.85(39108):lms__dmstesting_admin@lms__dmstest:[39281]:STATEMENT: INSERT INTO "dbo"."users"("userid","usertypeid","firstname","middlename","lastname","preferredfirstname","preferredlastname","legalfirstname","legallastname","password","username","lockouttime","failedlogins","internalemail","externalemail","rowversion","sortlastname") values ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17)
+
+CONFIG_VARIABLE_ORGUNIT_VALUES
+select * from dbo.config_variable_orgunit_values
+ERROR: index row size 3128 exceeds btree version 4 maximum 2704 for index "ix_config_variable_orgunit_values"
+DETAIL: Index row references tuple (1,113) in relation "config_variable_orgunit_values".
+HINT: Values larger than 1/3 of a buffer page cannot be indexed. Consider a function index of an MD5 hash of the value, or use full text indexing.
+
+
+ERROR: schema "Activity" does not exist at character 14
+STATEMENT: CREATE TABLE "Activity"."activities" ( "ActivityId" BIGINT NOT NULL, "ProviderId" BIGINT NOT NULL, "ProviderObjectId" BIGINT, "Name" VARCHAR(450), "Description" text )
+ERROR: schema "Activity" does not exist at character 14
+STATEMENT: CREATE TABLE "Activity"."activity_collections" ( "CollectionId" BIGINT, "MemberId" BIGINT NOT NULL, "CompletionRequirement" INTEGER, "DateDeleted" TIMESTAMP, "PathFromRoot" VARCHAR(250) NOT NULL, "ActivityAncestors" VARCHAR(250) )
+ERROR: schema "Activity" does not exist at character 14
+STATEMENT: CREATE TABLE "Activity"."activity_evaluator_delegation_rules" ( "ActivityInstanceId" BIGINT NOT NULL, "MappingRules" text NOT NULL, "RulesOverridden" BOOL NOT NULL )
+ERROR: schema "Activity" does not exist at character 14
+
+https://www.sqlservercentral.com/articles/fixing-the-distributor-has-not-been-installed-correctly-error-with-aws
+
+
+STATEMENT:  UPDATE "dbo"."tasks_recurring_states" 
+SET "nextruntime"= CASE  
+WHEN "public"."awsdms_changesF48EDF001E91E027"."col1" IS NULL 
+THEN "dbo"."tasks_recurring_states"."nextruntime" 
+WHEN "public"."awsdms_changesF48EDF001E91E027"."col1" = '<att_null>' THEN NULL 
+ELSE  CAST( "public"."awsdms_changesF48EDF001E91E027"."col1" as  TIMESTAMP)  END ,
+"lockeddate"= CASE  WHEN "public"."awsdms_changesF48EDF001E91E027"."col2" IS NULL 
+THEN "dbo"."tasks_recurring_states"."lockeddate" 
+WHEN "public"."awsdms_changesF48EDF001E91E027"."col2" = '<att_null>' THEN NULL 
+ELSE  CAST( "public"."awsdms_changesF48EDF001E91E027"."col2" as  TIMESTAMP)  END ,
+"taskid"= CASE  
+WHEN "public"."awsdms_changesF48EDF001E91E027"."col3" IS NULL THEN "dbo"."tasks_recurring_states"."taskid" 
+WHEN "public"."awsdms_changesF48EDF001E91E027"."col3" = '<att_null>' THEN NULL 
+ELSE  CAST( "public"."awsdms_changesF48EDF001E91E027"."col3" as  VARCHAR(36))  END ,
+"locktoken"= CASE  WHEN "public"."awsdms_changesF48EDF001E91E027"."col4" IS NULL 
+THEN "dbo"."tasks_recurring_states"."locktoken" 
+WHEN "public"."awsdms_changesF48EDF001E91E027"."col4" = '<att_null>' THEN NULL 
+ELSE  CAST( "public"."awsdms_changesF48EDF001E91E027"."col4" as  VARCHAR(36))  END  
+FROM "public"."awsdms_changesF48EDF001E91E027" 
+WHERE "dbo"."tasks_recurring_states"."taskid"= CAST
+( "public"."awsdms_changesF48EDF001E91E027"."seg1" as  VARCHAR(36))  
+AND "public"."awsdms_changesF48EDF001E91E027"."seq" >= $1 
+and "public"."awsdms_changesF48EDF001E91E027"."seq" <= $2
+
+ERROR:  operator does not exist: uuid = character varying at character 1299
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+Dec 20 changes as part of support call with Kubra (AWS)
+
+"LobMaxSize": 32,
+"LobMaxSize": 4096,
+
+https://repost.aws/knowledge-center/dms-swap-files-consuming-space
+https://repost.aws/knowledge-center/dms-troubleshoot-errors
+
+        "MemoryKeepTime": 60,
+        "BatchApplyMemoryLimit": 500,
+        "MemoryLimitTotal": 1024
+		
+		"MemoryKeepTime": 120,
+        "BatchApplyMemoryLimit": 500,
+        "MemoryLimitTotal": 2048
+note that as MemoryLimitTotal increases so must MemoryKeepTime 
+
+"LobMaxSize": 32,
+
+
+Dec 23
+
+workforce.org_units 
+[TARGET_LOAD ]E: RetCode: SQL_ERROR SqlState: HY000 NativeError: 1 Message: Error while executing the query [1022502] (ar_odbc_conn.c:1800)
+SQL_ERROR  SqlState: HY000 NativeError: 1 Message: Error while executing the query; Failed to get table workforce.org_units; Handling new table 'workforce'.'org_units' failed  (replicationtask.c:3068)
+
+staging.org_users
+[TASK_MANAGER    ]W:  Table 'staging'.'ORG_USERS' was errored/suspended (subtask 7 thread 1). RetCode: SQL_ERROR  SqlState: HY000 NativeError: 1 Message: Error while executing the query; Failed to get table staging.org_users; Handling new table 'staging'.'org_users' failededer_progress_provider_preferences' failed SqlState: 22P02 NativeError: 1 Message: ERROR: invalid input syntax for type bytea; Error while executing the query; execute statement failed; Handling End of table 'dbo'.'user_feed_messages' loading failed by subtask 7 thread 1  (replicationtask.c:3068)
+
+dbo.workflow_state
+[TASK_MANAGER    ]W:  Table 'dbo'.'WORKFLOW_STATE' was errored/suspended (subtask 7 thread 1). RetCode: SQL_ERROR  SqlState: HY000 NativeError: 1 Message: Error while executing the query; Failed to get table dbo.workflow_state; Handling new table 'dbo'.'workflow_state' failed  (replicationtask.c:3068)
+
+dbo.wizard_data
+[TASK_MANAGER ]W: Table 'dbo'.'WIZARD_DATA' was errored/suspended (subtask 7 thread 1). RetCode: SQL_ERROR SqlState: HY000 NativeError: 1 Message: Error while executing the query; Failed to get table dbo.wizard_data; Handling new table 'dbo'.'wizard_data' failedfaileder_progress_provider_preferences' failed SqlState: 22P02 NativeError: 1 Message: ERROR: invalid input syntax for type bytea; Error while executing the query; execute statement failed; Handling End of table 'dbo'.'user_feed_messages' loading failed by subtask 7 thread 1 (replicationtask.c:3068)
+
+dbo.web_pages
+[TASK_MANAGER    ]W:  Table 'dbo'.'WEB_PAGES' was errored/suspended (subtask 7 thread 1). RetCode: SQL_ERROR  SqlState: HY000 NativeError: 1 Message: Error while executing the query; Failed to get table dbo.web_pages; Handling new table 'dbo'.'web_pages' failedes' faileder_progress_provider_preferences' failed SqlState: 22P02 NativeError: 1 Message: ERROR: invalid input syntax for type bytea; Error while executing the query; execute statement failed; Handling End of table 'dbo'.'user_feed_messages' loading failed by subtask 7 thread 1  (replicationtask.c:3068)
+
+[TASK_MANAGER    ]W:  Table 'dbo'.'VARIABLES' was errored/suspended (subtask 7 thread 1). RetCode: SQL_ERROR  SqlState: HY000 NativeError: 1 Message: Error while executing the query; Failed to get table dbo.variables; Handling new table 'dbo'.'variables' failedes' faileder_progress_provider_preferences' failed SqlState: 22P02 NativeError: 1 Message: ERROR: invalid input syntax for type bytea; Error while executing the query; execute statement failed; Handling End of table 'dbo'.'user_feed_messages' loading failed by subtask 7 thread 1  (replicationtask.c:3068)
+
+[TASK_MANAGER    ]W:  Table 'dbo'.'USERS_IMPORT' was errored/suspended (subtask 7 thread 1). RetCode: SQL_ERROR  SqlState: HY000 NativeError: 1 Message: Error while executing the query; Failed to get table dbo.users_import; Handling new table 'dbo'.'users_import' failed  (replicationtask.c:3068)
+
+[TASK_MANAGER    ]W:  Table 'dbo'.'USER_SET_RULES' was errored/suspended (subtask 7 thread 1). RetCode: SQL_ERROR  SqlState: HY000 NativeError: 1 Message: Error while executing the query; Failed to get table dbo.user_set_rules; Handling new table 'dbo'.'user_set_rules' faileder_progress_provider_preferences' failed SqlState: 22P02 NativeError: 1 Message: ERROR: invalid input syntax for type bytea; Error while executing the query; execute statement failed; Handling End of table 'dbo'.'user_feed_messages' loading failed by subtask 7 thread 1  (replicationtask.c:3068)
+
+[TASK_MANAGER    ]W:  Table 'dbo'.'USER_PROGRESS_PROVIDER_PREFERENCES' was errored/suspended (subtask 7 thread 1). RetCode: SQL_ERROR  SqlState: HY000 NativeError: 1 Message: Error while executing the query; Failed to get table dbo.user_progress_provider_preferences; Handling new table 'dbo'.'user_progress_provider_preferences' failed SqlState: 22P02 NativeError: 1 Message: ERROR: invalid input syntax for type bytea; Error while executing the query; execute statement failed; Handling End of table 'dbo'.'user_feed_messages' loading failed by subtask 7 thread 1  (replicationtask.c:3068)
+
+[TASK_MANAGER    ]W:  Table 'dbo'.'USER_PROGRESS_CPP_CONFIG' was errored/suspended (subtask 7 thread 1). RetCode: SQL_ERROR  SqlState: HY000 NativeError: 1 Message: Error while executing the query; Failed to get table dbo.user_progress_cpp_config; Handling new table 'dbo'.'user_progress_cpp_config' failed RetCode: SQL_ERROR  SqlState: 22P02 NativeError: 1 Message: ERROR: invalid input syntax for type bytea; Error while executing the query; execute statement failed; Handling End of table 'dbo'.'user_feed_messages' loading failed by subtask 7 thread 1  (replicationtask.c:3068)
+
+[TASK_MANAGER    ]W:  Table 'dbo'.'USER_PRIORITYTYPES' was errored/suspended (subtask 7 thread 1). RetCode: SQL_ERROR  SqlState: HY000 NativeError: 1 Message: Error while executing the query; Failed to get table dbo.user_prioritytypes; Handling new table 'dbo'.'user_prioritytypes' failed  (replicationtask.c:3068)
+
+[TASK_MANAGER    ]W:  Table 'dbo'.'USER_PREFERENCE_FILES' was errored/suspended (subtask 7 thread 1). RetCode: SQL_ERROR  SqlState: HY000 NativeError: 1 Message: Error while executing the query; Failed to get table dbo.user_preference_files; Handling new table 'dbo'.'user_preference_files' failededent; RetCode: SQL_ERROR  SqlState: 22P02 NativeError: 1 Message: ERROR: invalid input syntax for type bytea; Error while executing the query; execute statement failed; Handling End of table 'dbo'.'user_feed_messages' loading failed by subtask 7 thread 1  (replicationtask.c:3068)
+
+[TASK_MANAGER    ]W:  Table 'dbo'.'USER_ORGANIZATIONS_LOG' was errored/suspended (subtask 7 thread 1). RetCode: SQL_ERROR  SqlState: HY000 NativeError: 1 Message: Error while executing the query; Failed to get table dbo.user_organizations_log; Handling new table 'dbo'.'user_organizations_log' failedent; RetCode: SQL_ERROR  SqlState: 22P02 NativeError: 1 Message: ERROR: invalid input syntax for type bytea; Error while executing the query; execute statement failed; Handling End of table 'dbo'.'user_feed_messages' loading failed by subtask 7 thread 1  (replicationtask.c:3068)
+
+AUTHENTICATION_SESSION_DATA
+
+QUEUE_MESSAGES
+
+-- NOTE
+for QUEUE_MESSAGES activity, add comment in ePortfolio, drop box submission
+
+still getting error
+2024-12-23T20:38:51 [TARGET_APPLY    ]E:  Failed to get blob columns values for table dbo.queue_messages [1020402]  (odbc_util.c:4031)
+
+[TASK_MANAGER    ]W:  Table 'dbo'.'USER_FEED_MESSAGES' was errored/suspended (subtask 7 thread 1). Failed (retcode -1) to execute statement; RetCode: SQL_ERROR  SqlState: 22P02 NativeError: 1 Message: ERROR: invalid input syntax for type bytea; Error while executing the query; execute statement failed; Handling End of table 'dbo'.'user_feed_messages' loading failed by subtask 7 thread 1  (replicationtask.c:3068)
+2024-12-24T17:15:00 [TARGET_LOAD     ]E:  Failed to prepare statement 'INSERT INTO "dbo"."user_feed_messages"("messageid","messagetypeid","objectid","message","orgunitid","datecreated","hashvalue") values (?,?,?,?,?,?,?)' [1022502]  (odbc_endpoint_imp.c:5358)
+
+---Jan 15
+2025-01-15T20:26:41:338488 [SOURCE_CAPTURE  ]E:  Primary key segment 'SessionIdBucket' value was not found [1020402]  (odbc_util.c:2780)
+2025-01-15T20:26:41:338501 [TARGET_APPLY    ]E:  Failed to get blob columns values for table dbo.authentication_session_data [1020402]  (odbc_util.c:4031)
+2025-01-15T20:26:41:338513 [TARGET_APPLY    ]W:  Failed to apply record 2835605 to target  {operation:INSERT (1), tableName:AUTHENTICATION_SESSION_DATA, schemaName:dbo, txnId:215067348, connectionId:5770, streamPosition:00006c86:00009a20:0004}  (endpointshell.c:5297)
+
+----
+$DMSCredentials = Get-DMSCredentials
+
+$TaskName = 'dec17-user-feed-messages'
+
+Get-DMSReplicationTask -credential $DMSCredentials| Where-Object {$_.ReplicationTaskIdentifier -eq $Taskname}
+
+$TaskInfo = Get-DMSReplicationTask -credential $DMSCredentials| Where-Object {$_.ReplicationTaskIdentifier -eq $Taskname}
+$TaskArn = $TaskInfo.ReplicationTaskArn
+
+ .\Add-CustomMigrationTask.ps1 -D2lInstance dbastandard1 -SourceEndpointName dbastandard1-fci -TargetEndpointName dbatest1-target-20241120-1942 -RepInstanceName dbatest1-repinst-20241120-1942 -Environment Dev-LMS -TableMappingFile dec17-auth-sess-data-cdc-pk.json
+
+$TaskName = 'dec17-user-feed-messages-cdc.json' 
+ $parameters = @{
+    D2lInstance         = "dbastandard1"
+    SourceEndpointName  = "dbastandard1-fci"
+    TargetEndpointName  = "dbatest1-target-20241120-1942"
+    RepInstanceName     = "dbatest1-repinst-20241120-1942"
+    Environment         = "Dev-LMS"
+    TableMappingFile    = $taskname
+}
+.\Add-CustomMigrationTask.ps1 @parameters
+
+https://docs.aws.amazon.com/dms/latest/APIReference/API_StartReplicationTask.html
+Valid Values: start-replication | resume-processing | reload-target
+
+$TaskName = 'dbastandard1-dec17-all-main-cdc'
+$TaskInfo = Get-DMSReplicationTask -credential $DMSCredentials| Where-Object {$_.ReplicationTaskIdentifier -eq $Taskname}
+$TaskArn = $TaskInfo.ReplicationTaskArn
+
+#$TaskType = 'resume-processing'
+#$TaskType = 'start-replication'
+$TaskType = 'reload-target'
+
+
+$DMSReplicationTaskParams = @{
+    ReplicationTaskArn = $TaskArn
+    StartReplicationTaskType = $TaskType
+    Credential = $DMSCredentials
+}
+
+$StartTask = Start-DMSReplicationTask @DMSReplicationTaskParams
+$StartTask.Status
+
+while ($StartTask.Status -eq "starting") {
+        $TaskInfo = Get-DMSReplicationTask -credential $DMSCredentials| Where-Object {$_.ReplicationTaskIdentifier -eq $Taskname}
+		Write-Output "Task Status: $($TaskInfo.Status)"
+        Start-Sleep -Seconds 10
+    }
+	
+---
+
+us04
+dms_user
+BcCaUkPwbX!LEE7GTjp
+
+ca05
+dms_user
+GysqRjY!BnN3Adu3QAZe

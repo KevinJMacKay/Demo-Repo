@@ -1,0 +1,22 @@
+[
+    {
+"TestCount": 3,
+"Duration": 5,
+"Workload_VUs": "250 500 750", 
+"AllWarehouse": "true",
+"Rampup": 5,
+"PerfMonCollector": "HammerDB_PerfTest",
+"ResultsPath": "C:\\DBA_Scripts\\HammerDB_PerfTest",
+"StatsDB": "Stats",
+"WaitsQuery1": "C:\\DBA_Scripts\\HammerDB_PerfTest\\GetWaits_Step1.sql",
+"WaitsQuery2": "C:\\DBA_Scripts\\HammerDB_PerfTest\\GetWaits_Step2.sql",
+"HammerDBLocation": "C:\\DBA_Scripts\\HammerDB",
+"HammerDBDatabase": "HammerDB_250",
+"DataPath": "E:\\SQL_Data",
+"LogPath": "F:\\SQL_Logs",
+"RestorePath": "V:\\SQL_Backups",
+"WorkloadFile": "C:\\DBA_Scripts\\HammerDB\\workload.tcl",
+"LogFile": "HammerDB.log"
+    }
+]
+

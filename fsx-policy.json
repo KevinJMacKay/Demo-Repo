@@ -1,0 +1,17 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "fsx:DescribeFileSystems",
+          "fsx:CreateFileSystem",
+          "fsx:DeleteFileSystem",
+          "fsx:TagResource",
+          "fsx:UntagResource"
+        ],
+        "Resource": "*"
+      }
+    ]
+  }
+  

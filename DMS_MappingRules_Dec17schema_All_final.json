@@ -1,0 +1,544 @@
+{
+    "rules": [
+        {
+            "rule-type": "transformation",
+            "rule-id": "462621121",
+            "rule-name": "460210982",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "CONFIG_SESSION_HISTORY",
+                "column-name": "SessionId"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "460210982",
+            "rule-name": "460210982",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "USER_LOGIN_ATTEMPTS",
+                "column-name": "SessionId"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "selection",
+            "rule-id": "365503576",
+            "rule-name": "365503576",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "%"
+            },
+            "rule-action": "include",
+            "filters": []
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "548845748",
+            "rule-name": "548854748",
+            "rule-target": "schema",
+            "object-locator": {
+                "schema-name": "Activity"
+            },
+            "rule-action": "convert-lowercase",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "selection",
+            "rule-id": "546285370",
+            "rule-name": "546285370",
+            "object-locator": {
+                "schema-name": "activity",
+                "table-name": "%"
+            },
+            "rule-action": "include",
+            "filters": []
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "358456322",
+            "rule-name": "358456322",
+            "rule-target": "table",
+            "object-locator": {
+                "schema-name": "%",
+                "table-name": "%"
+            },
+            "rule-action": "convert-lowercase",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "548844748",
+            "rule-name": "548844748",
+            "rule-target": "schema",
+            "object-locator": {
+                "schema-name": "staging"
+            },
+            "rule-action": "convert-lowercase",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "548844749",
+            "rule-name": "548844749",
+            "rule-target": "schema",
+            "object-locator": {
+                "schema-name": "Workforce"
+            },
+            "rule-action": "convert-lowercase",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "546393478",
+            "rule-name": "546393478",
+            "rule-target": "table",
+            "object-locator": {
+                "schema-name": "%",
+                "table-name": "%"
+            },
+            "rule-action": "convert-lowercase",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "selection",
+            "rule-id": "546280470",
+            "rule-name": "546280470",
+            "object-locator": {
+                "schema-name": "staging",
+                "table-name": "%"
+            },
+            "rule-action": "include",
+            "filters": []
+        },
+        {
+            "rule-type": "selection",
+            "rule-id": "546280370",
+            "rule-name": "546280370",
+            "object-locator": {
+                "schema-name": "workforce",
+                "table-name": "%"
+            },
+            "rule-action": "include",
+            "filters": []
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "5000",
+            "rule-name": "5000",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "CONTENT_OBJECTS_ALL",
+                "column-name": "LocationChecksum"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "5001",
+            "rule-name": "5001",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "MAIL",
+                "column-name": "IsDeleted"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "5002",
+            "rule-name": "5002",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "CLASSLIST_FLAGGED_USERS",
+                "column-name": "IsFlagged"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "5003",
+            "rule-name": "5003",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "DISTRIBUTED_REFIRED_EVENTS",
+                "column-name": "HasFinished"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "5005",
+            "rule-name": "5005",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "AUTHENTICATION_SAML_AUDIT_LOG",
+                "column-name": "ActionTypeDesc"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "5006",
+            "rule-name": "5006",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "GRADE_SCHEMES",
+                "column-name": "OriginalOrgUnitId"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "5007",
+            "rule-name": "5007",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "QO",
+                "column-name": "ModificationTime"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "5008",
+            "rule-name": "5008",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "QO",
+                "column-name": "ValidFrom"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "5009",
+            "rule-name": "5009",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "QO",
+                "column-name": "ValidTo"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "5010",
+            "rule-name": "5010",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "USER_FEED_MESSAGES",
+                "column-name": "HashValue"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "5011",
+            "rule-name": "5011",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "ACTIVITY_EXEMPTIONS_LOG",
+                "column-name": "ResourceCode"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "5012",
+            "rule-name": "5012",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "QUEUE_MESSAGES",
+                "column-name": "MessageSequenceBucket"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "5013",
+            "rule-name": "5013",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "QO_History",
+                "column-name": "ValidFrom"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "5014",
+            "rule-name": "5014",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "ACTIVITY_EXEMPTIONS",
+                "column-name": "ResourceCode"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "5015",
+            "rule-name": "5015",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "CONTENT_FILE_SYSTEM_DELETED_PATHS",
+                "column-name": "DeletedPathHash"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "5016",
+            "rule-name": "5016",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "SERVICES",
+                "column-name": "Singleton"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "5017",
+            "rule-name": "5017",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "CONFIG_SESSIONS",
+                "column-name": "HitCodeSeed"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "5018",
+            "rule-name": "5018",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "CONFIG_SESSIONS",
+                "column-name": "SessionIdBucket"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "5019",
+            "rule-name": "5019",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "SCHEDULED_TASKS",
+                "column-name": "ConfigurationHash"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "5020",
+            "rule-name": "5020",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "RUBRIC_ASSESSMENTS",
+                "column-name": "IsCompleted"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "5021",
+            "rule-name": "5021",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "CONTENTSERVICE_OBJECT_PLACEMENTS",
+                "column-name": "D2lrnHash"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "5022",
+            "rule-name": "5022",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "AUTHENTICATION_SESSION_DATA",
+                "column-name": "SessionIdBucket"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "5023",
+            "rule-name": "5023",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "CONTENT_FILE_SYSTEM_FILE_CHANGE_AUDIT",
+                "column-name": "PathHash"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "5024",
+            "rule-name": "5024",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "CONTENT_FILE_SYSTEM_FILEACCESS_EXPIRATIONS",
+                "column-name": "VirtualPathHash"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "5025",
+            "rule-name": "5025",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "USERS",
+                "column-name": "FirstName"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "5026",
+            "rule-name": "5026",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "USERS",
+                "column-name": "LastName"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "5027",
+            "rule-name": "5027",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "CONTENT_FILE_SYSTEM_MIGRATED_DISK_PATHS",
+                "column-name": "VirtualPathHash"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "5028",
+            "rule-name": "5028",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "AUTHENTICATION_SAML_IDPS",
+                "column-name": "ProviderId"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "5029",
+            "rule-name": "5029",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "AGENT_SCHEDULES",
+                "column-name": "ScheduleTypeIdDesc"
+            },
+            "rule-action": "remove-column",
+            "value": null,
+            "old-value": null
+        }
+    ]
+}

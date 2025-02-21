@@ -1,0 +1,83 @@
+{
+    "rules": [
+        {
+            "rule-type": "selection",
+            "rule-id": "977807589",
+            "rule-name": "977594258",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "QUEUE_MESSAGES"
+            },
+            "rule-action": "include",
+            "filters": []
+        },
+        {
+            "rule-type": "selection",
+            "rule-id": "977800396",
+            "rule-name": "977594258",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "AUTHENTICATION_SESSION_DATA"
+            },
+            "rule-action": "exclude",
+            "filters": []
+        },
+        {
+            "rule-type": "selection",
+            "rule-id": "977766756",
+            "rule-name": "977594258",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "USER_FEED_MESSAGES"
+            },
+            "rule-action": "include",
+            "filters": []
+        },
+        {
+            "rule-type": "selection",
+            "rule-id": "977699194",
+            "rule-name": "977594258",
+            "object-locator": {
+                "schema-name": "dbo",
+                "table-name": "WORKFLOW_STATE"
+            },
+            "rule-action": "include",
+            "filters": []
+        },
+        {
+            "rule-type": "selection",
+            "rule-id": "977682960",
+            "rule-name": "977594258",
+            "object-locator": {
+                "schema-name": "staging",
+                "table-name": "ORG_USERS"
+            },
+            "rule-action": "include",
+            "filters": []
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "977629404",
+            "rule-name": "977629404",
+            "rule-target": "table",
+            "object-locator": {
+                "schema-name": "%",
+                "table-name": "%"
+            },
+            "rule-action": "convert-lowercase",
+            "value": null,
+            "old-value": null
+        },
+        {
+            "rule-type": "selection",
+            "rule-id": "977594258",
+            "rule-name": "977594258",
+            "object-locator": {
+                "schema-name": "workforce",
+                "table-name": "org_units"
+            },
+            "rule-action": "exclude",
+            "filters": []
+        }
+    ]
+}
